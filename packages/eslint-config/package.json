@@ -41,5 +41,6 @@
   },
   "engines": {
     "node": ">= 4"
-  }
+  },
+  "gitHead": "ff6d2e3a581d94fd6253540e793cf9ea9a4742eb"
 }
