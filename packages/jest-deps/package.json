@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-jest-deps",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "tsconfig copy / clone cli",
   "keywords": [
     "dependencies",
