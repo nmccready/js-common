@@ -18,8 +18,8 @@
   ],
   "bin": "lib/cli.js",
   "scripts": {
-    "preinstall:dev": "cp ../debug-clone/debug.js .",
-    "postinstall": "yarn js-common-debug-clone"
+    "postinstall": "yarn js-common-debug-clone",
+    "preinstall:dev": "cp ../debug-clone/debug.js ."
   },
   "dependencies": {
     "@znemz/js-common-cpy-cli": "^0.0.3",

@@ -13,9 +13,6 @@
   "repository": {
     "url": "https://github.com/nmccready/js-common/packages/gulpfile-monorepo-typescript-clone"
   },
-  "scripts": {
-    "preinstall:dev": "exit 0"
-  },
   "license": "MIT",
   "author": "Nicholas McCready",
   "files": [
@@ -25,6 +22,9 @@
   ],
   "main": "gulpfile.js",
   "bin": "src/cli.js",
+  "scripts": {
+    "preinstall:dev": "exit 0"
+  },
   "dependencies": {
     "@znemz/js-common-cpy-cli": "^0.0.3",
     "debug-fabulous": "^1.1.0"

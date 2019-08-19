@@ -18,8 +18,8 @@
   ],
   "main": "lib/index.js",
   "scripts": {
-    "preinstall:dev": "cp ../tsconfig-clone/tsconfig.json . && cp ../debug-clone/debug.js .",
-    "postinstall": "yarn js-common-tsconfig-clone && yarn js-common-debug-clone"
+    "postinstall": "yarn js-common-tsconfig-clone && yarn js-common-debug-clone",
+    "preinstall:dev": "cp ../tsconfig-clone/tsconfig.json . && cp ../debug-clone/debug.js ."
   },
   "dependencies": {
     "@babel/cli": "^7.0.0",

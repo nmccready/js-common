@@ -21,11 +21,11 @@
   ],
   "main": "debug.js",
   "bin": "src/cli.js",
-  "dependencies": {
-    "@znemz/js-common-cpy-cli": "^0.0.3"
-  },
   "scripts": {
     "preinstall:dev": "exit 0"
+  },
+  "dependencies": {
+    "@znemz/js-common-cpy-cli": "^0.0.3"
   },
   "publishConfig": {
     "access": "public"

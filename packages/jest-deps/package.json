@@ -16,11 +16,11 @@
     "lib",
     "debug.js"
   ],
+  "main": "debug.js",
+  "bin": "src/cli.js",
   "scripts": {
     "preinstall:dev": "exit 0"
   },
-  "main": "debug.js",
-  "bin": "src/cli.js",
   "dependencies": {
     "jest": "^24.8",
     "jest-cli": "^24.8",

@@ -22,10 +22,10 @@
   "scripts": {
     "prelint": "editorconfig-tools check * tests/*",
     "lint": "eslint .",
+    "preinstall:dev": "exit 0",
     "pretest": "yarn lint",
     "test": "yarn tests-only",
-    "tests-only": "babel-tape-runner ./tests/**/*spec.js",
-    "preinstall:dev": "exit 0"
+    "tests-only": "babel-tape-runner ./tests/**/*spec.js"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^1.11",

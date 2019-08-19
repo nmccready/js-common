@@ -19,11 +19,11 @@
     "lib",
     "debug.js"
   ],
+  "main": "debug.js",
+  "bin": "src/cli.js",
   "scripts": {
     "preinstall:dev": "exit 0"
   },
-  "main": "debug.js",
-  "bin": "src/cli.js",
   "dependencies": {
     "@znemz/js-common-cpy-cli": "^0.0.3",
     "confusing-browser-globals": "^1.0.6"
