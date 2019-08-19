@@ -4,7 +4,7 @@ import { sourceType, env, plugins } from './babel.config.internals';
 const babelConfig = makeConfig({
   sourceType,
   env,
-  plugins
+  plugins,
 });
 
 export default babelConfig;

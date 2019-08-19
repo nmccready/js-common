@@ -1,5 +1,5 @@
 // @ts-ignore
-import { PluginItem, TransformOptions } from '@types/babel__core';
+import { PluginItem, TransformOptions } from 'babel__core'; // eslint-disable-line
 
 export type SourceType = 'script' | 'module' | 'unambiguous' | null;
 
