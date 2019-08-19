@@ -16,6 +16,7 @@
   ],
   "bin": "lib/cli.js",
   "scripts": {
+    "preinstall:dev": "exit 0",
     "pretest:1": "yarn js-common-babel-config-clone && yarn js-common-editorconfig-clone",
     "pretest:2": "yarn js-common-debug-clone && yarn js-common-gulpfile-monorepo-typescript-clone",
     "pretest:3": "yarn js-common-tsconfig-clone",

@@ -19,6 +19,9 @@
     "lib",
     "debug.js"
   ],
+  "scripts": {
+    "preinstall:dev": "exit 0"
+  },
   "main": "debug.js",
   "bin": "src/cli.js",
   "dependencies": {

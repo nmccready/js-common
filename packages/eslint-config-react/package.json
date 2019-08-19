@@ -24,7 +24,8 @@
     "lint": "eslint .",
     "pretest": "yarn lint",
     "test": "yarn tests-only",
-    "tests-only": "babel-tape-runner ./tests/**/*spec.js"
+    "tests-only": "babel-tape-runner ./tests/**/*spec.js",
+    "preinstall:dev": "exit 0"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^1.11",

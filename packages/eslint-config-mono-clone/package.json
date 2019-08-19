@@ -24,6 +24,9 @@
   "dependencies": {
     "@znemz/js-common-cpy-cli": "^0.0.3"
   },
+  "scripts": {
+    "preinstall:dev": "exit 0"
+  },
   "publishConfig": {
     "access": "public"
   },

@@ -19,10 +19,14 @@
     "lib",
     "debug.js"
   ],
+  "scripts": {
+    "preinstall:dev": "exit 0"
+  },
   "main": "debug.js",
   "bin": "src/cli.js",
   "dependencies": {
-    "@znemz/js-common-cpy-cli": "^0.0.3"
+    "@znemz/js-common-cpy-cli": "^0.0.3",
+    "confusing-browser-globals": "^1.0.6"
   },
   "publishConfig": {
     "access": "public"
