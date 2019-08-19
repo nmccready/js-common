@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-eslint-config-react-mono-clone",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "prettierrc.js clone",
   "keywords": [
     "child",
@@ -25,7 +25,7 @@
     "preinstall:dev": "exit 0"
   },
   "dependencies": {
-    "@znemz/js-common-cpy-cli": "^0.0.5",
+    "@znemz/js-common-cpy-cli": "^0.0.6",
     "confusing-browser-globals": "^1.0.6"
   },
   "publishConfig": {
