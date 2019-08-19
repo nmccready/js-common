@@ -28,7 +28,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "47dd89998e227e776f370d74e4ed4dfbfe0d09ab",
+  "gitHead": "562740b40f1e4cd304469dcccb666adb1f40365b",
   "gulp": {
     "opts": {
       "doBabel": false,
