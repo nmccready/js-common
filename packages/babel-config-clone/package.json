@@ -23,6 +23,7 @@
   "dependencies": {
     "@znemz/js-common-babel-config": "^0.0.2",
     "@znemz/js-common-tsconfig-clone": "^0.0.2",
+    "@znemz/js-common-debug-clone": "^0.0.2",
     "cpy-cli": "^2.0.0"
   },
   "publishConfig": {

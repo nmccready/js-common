@@ -21,6 +21,7 @@
     "preinstall": "yarn cpy ../debug-clone/debug.js ."
   },
   "dependencies": {
+    "@znemz/js-common-debug-clone": "^0.0.2",
     "@znemz/js-common-cpy-cli": "^0.0.2",
     "debug-fabulous": "^1.1.0"
   },
