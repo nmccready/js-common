@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-prettierrc-clone",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "prettierrc.js clone",
   "keywords": [
     "child",
@@ -25,7 +25,7 @@
     "preinstall:dev": "exit 0"
   },
   "dependencies": {
-    "@znemz/js-common-cpy-cli": "^0.0.6"
+    "@znemz/js-common-cpy-cli": "^0.0.7"
   },
   "publishConfig": {
     "access": "public"
