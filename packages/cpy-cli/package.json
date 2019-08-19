@@ -1,0 +1,40 @@
+{
+  "name": "@znemz/js-common-cpy-cli",
+  "version": "0.0.1",
+  "description": "copy / clone cli",
+  "keywords": [],
+  "repository": {
+    "url": "https://github.com/nmccready/js-common/packages/clone-file"
+  },
+  "license": "MIT",
+  "author": "Nicholas McCready",
+  "files": [
+    "src",
+    "lib",
+    "debug.js"
+  ],
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "bin": "lib/cli.js",
+  "scripts": {
+    "preinstall": "yarn cpy ../tsconfig-clone/tsconfig.json . && yarn cpy ../debug-clone/debug.js ."
+  },
+  "dependencies": {
+    "@znemz/js-common-tsconfig-clone": "0.0.1",
+    "commander": "^3.0.0",
+    "cpy": "^7",
+    "cpy-cli": "^2.0.0",
+    "debug-fabulous": "^1.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gulp": {
+    "opts": {
+      "doBabel": false,
+      "doTs": true,
+      "doTypes": false,
+      "doSeries": true
+    }
+  }
+}

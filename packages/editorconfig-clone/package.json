@@ -1,0 +1,40 @@
+{
+  "name": "@znemz/js-common-editorconfig-clone",
+  "version": "0.0.1",
+  "description": "editorconfig copy / clone cli",
+  "keywords": [
+    "editorconfig"
+  ],
+  "repository": {
+    "url": "https://github.com/nmccready/js-common/packages/editorconfig-clone"
+  },
+  "license": "MIT",
+  "author": "Nicholas McCready",
+  "files": [
+    "src",
+    "lib",
+    "debug.js"
+  ],
+  "bin": "lib/cli.js",
+  "scripts": {
+    "preinstall": "yarn cpy ../tsconfig-clone/tsconfig.json . && yarn cpy ../debug-clone/debug.js ."
+  },
+  "dependencies": {
+    "@znemz/js-common-tsconfig-clone": "0.0.1",
+    "cpy-cli": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gulp": {
+    "opts": {
+      "doBabel": false,
+      "doTs": true,
+      "doTypes": true,
+      "doSeries": false,
+      "src": [
+        "src/.editorconfig"
+      ]
+    }
+  }
+}

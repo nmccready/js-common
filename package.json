@@ -1,0 +1,79 @@
+{
+  "name": "@znemz/js-common",
+  "private": true,
+  "description": "Mono Repo for react libs / extensions.",
+  "keywords": [
+    "hooks",
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nmccready/js-common.git"
+  },
+  "license": "MIT",
+  "author": "Nicholas McCready",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": []
+  },
+  "scripts": {
+    "build": "yarn gulp",
+    "clean:lib": "yarn gulp clean",
+    "clean:node_modules": "lerna exec --parallel 'rm -rf node_modules' && rm -rf node_modules",
+    "getPath": "echo `./node_modules/.bin/realpath .`",
+    "gulp": "node -r esm ./node_modules/.bin/gulp",
+    "postinstall": "yarn postinstall:1 && yarn postinstall:2 && yarn postinstall:3 && yarn postinstall:4",
+    "jest": "node -r esm ./node_modules/.bin/jest",
+    "lint": "eslint --ext .js,.ts,.tsx *.js packages --color",
+    "postinstall:1": "yarn cpy packages/babel-config-clone/src/babel.config.js . && yarn cpy packages/tsconfig-clone/tsconfig.json .",
+    "postinstall:2": "yarn cpy packages/editorconfig-clone/src/.editorconfig . && yarn cpy packages/debug-clone/debug.js .",
+    "postinstall:3": "yarn cpy packages/gulpfile-monorepo-typescript-clone/gulpfile.js . && yarn cpy packages/prettierrc-clone/.prettierrc.js .",
+    "postinstall:4": "yarn cpy packages/eslint-config-mono-clone/.eslint* .",
+    "prepare": "yarn sort-package-json && yarn lerna exec --parallel sort-package-json",
+    "prepublishOnly": "yarn build",
+    "scope": "yarn lerna exec --scope",
+    "start": "lerna exec --parallel yarn start",
+    "start:dev": "concurrently -k -r -s first \"yarn test --watch\" \"yarn start\"",
+    "test": "yarn scope @znemz/js-common-zanity yarn pretest && yarn jest",
+    "test:ci": "yarn lint && yarn test --coverage",
+    "website": "yarn gulp docs && yarn gulp docs:assets && yarn x0 build docs",
+    "website:dev": "concurrently -k -r -s all 'yarn gulp docs:watch' 'yarn x0 docs'"
+  },
+  "devDependencies": {
+    "@compositor/logo": "^1.4.0",
+    "@compositor/x0": "^6.0.7",
+    "@types/lodash": "^4.14.134",
+    "@types/node": "^11.13.5",
+    "@types/react": "^16.8.19",
+    "@znemz/js-common-babel-config": "0.0.1",
+    "@znemz/js-common-editorconfig-clone": "0.0.1",
+    "@znemz/js-common-eslint-config": "^0.0.1",
+    "@znemz/js-common-gulp-monorepo-typescript": "0.0.1",
+    "@znemz/js-common-jest-deps": "0.0.1",
+    "@znemz/react-extras-jest": "^0.0.21",
+    "babel-plugin-minify-mangle-names": "^0.5.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "bluebird": "^3.5.3",
+    "concurrently": "^4.0.1",
+    "coveralls": "^3.0.2",
+    "cpy-cli": "^2.0.0",
+    "debug-fabulous": "^1.1.0",
+    "esm": "^3.2.22",
+    "lerna": "^3.16",
+    "lodash": "^4.17.11",
+    "memoizee": "^0.4.14",
+    "portfinder": "^1.0.20",
+    "prettier": "^1.16.4",
+    "react": "^16.8.6",
+    "react-test-renderer": "^16.8.6",
+    "rimraf": "^2.6.2",
+    "sort-package-json": "^1.21.0",
+    "typescript": "^3.5.1"
+  },
+  "engines": {
+    "node": ">=8",
+    "yarn": ">=1.15"
+  }
+}

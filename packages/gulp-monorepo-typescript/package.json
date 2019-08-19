@@ -1,0 +1,41 @@
+{
+  "name": "@znemz/js-common-gulp-monorepo-typescript",
+  "version": "0.0.1",
+  "description": "gulp task configuration for building lerna projects via babel and typscript",
+  "keywords": [
+    "babel",
+    "configuration",
+    "gulp",
+    "typescript"
+  ],
+  "repository": {
+    "url": "https://github.com/nmccready/js-common/packages/gulp-monorepo-typescript"
+  },
+  "license": "MIT",
+  "author": "Nicholas McCready",
+  "files": [
+    "src",
+    "lib",
+    "debug.js"
+  ],
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "preinstall": "yarn cpy ../debug-clone/debug.js ."
+  },
+  "dependencies": {
+    "commander": "^3.0.0",
+    "debug-fabulous": "^1.1.0",
+    "del": "^5.0.0",
+    "gulp": "4",
+    "gulp-babel": "^8",
+    "gulp-eslint": "^4",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1",
+    "gulp-typescript": "^5.0.1",
+    "lodash": "^4.17.15"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

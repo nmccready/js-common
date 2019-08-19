@@ -1,0 +1,30 @@
+{
+  "name": "@znemz/js-common-zanity",
+  "version": "0.0.1",
+  "private": true,
+  "description": "sanity check rep for our *clone projects",
+  "repository": {
+    "url": "https://github.com/nmccready/js-common/packages/zanity"
+  },
+  "license": "MIT",
+  "author": "Nicholas McCready",
+  "files": [
+    "src",
+    "lib",
+    "debug.js",
+    "tsconfig.json"
+  ],
+  "bin": "lib/cli.js",
+  "scripts": {
+    "pretest:1": "yarn js-common-babel-config-clone && yarn js-common-editorconfig-clone",
+    "pretest:2": "yarn js-common-debug-clone && yarn js-common-gulpfile-monorepo-typescript-clone",
+    "pretest:3": "yarn js-common-tsconfig-clone",
+    "pretest:4": "yarn js-common-prettierrc-clone && yarn js-common-eslint-config-mono-clone",
+    "pretest": "yarn pretest:1 && yarn pretest:2 && yarn pretest:3 && yarn pretest:4"
+  },
+  "gulp": {
+    "opts": {
+      "skip": true
+    }
+  }
+}

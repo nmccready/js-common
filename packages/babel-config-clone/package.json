@@ -1,0 +1,42 @@
+{
+  "name": "@znemz/js-common-babel-config-clone",
+  "version": "0.0.1",
+  "description": "babel-config copy / clone cli",
+  "keywords": [
+    "babel-config",
+    "clone"
+  ],
+  "repository": {
+    "url": "https://github.com/nmccready/js-common/packages/babel-config-clone"
+  },
+  "license": "MIT",
+  "author": "Nicholas McCready",
+  "files": [
+    "src",
+    "lib",
+    "debug.js"
+  ],
+  "bin": "lib/cli.js",
+  "scripts": {
+    "preinstall": "yarn cpy ../tsconfig-clone/tsconfig.json . && yarn cpy ../debug-clone/debug.js ."
+  },
+  "dependencies": {
+    "@znemz/js-common-babel-config": "0.0.1",
+    "@znemz/js-common-tsconfig-clone": "0.0.1",
+    "cpy-cli": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gulp": {
+    "opts": {
+      "doBabel": false,
+      "doTs": true,
+      "doTypes": true,
+      "doSeries": false,
+      "src": [
+        "src/babel.config.js"
+      ]
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "@znemz/js-common-jest-deps",
+  "version": "0.0.1",
+  "description": "tsconfig copy / clone cli",
+  "keywords": [
+    "dependencies",
+    "jest"
+  ],
+  "repository": {
+    "url": "https://github.com/nmccready/js-common/packages/jest-deps"
+  },
+  "license": "MIT",
+  "author": "Nicholas McCready",
+  "files": [
+    "src",
+    "lib",
+    "debug.js"
+  ],
+  "main": "debug.js",
+  "bin": "src/cli.js",
+  "dependencies": {
+    "jest": "^24.8",
+    "jest-cli": "^24.8",
+    "jest-css-modules-transform": "^2.5.0",
+    "jest-expect-message": "^1.0.2",
+    "jest-extended": "^0.11.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gulp": {
+    "opts": {
+      "doBabel": false,
+      "doTs": false,
+      "doTypes": false,
+      "doSeries": false,
+      "skip": true
+    }
+  }
+}

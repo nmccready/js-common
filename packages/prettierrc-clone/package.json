@@ -1,0 +1,39 @@
+{
+  "name": "@znemz/js-common-prettierrc-clone",
+  "version": "0.0.1",
+  "description": "prettierrc.js clone",
+  "keywords": [
+    "child",
+    "config",
+    "jest",
+    "monorepo",
+    "package"
+  ],
+  "repository": {
+    "url": "https://github.com/nmccready/js-common/packages/prettierrc-clone"
+  },
+  "license": "MIT",
+  "author": "Nicholas McCready",
+  "files": [
+    "src",
+    "lib",
+    "debug.js"
+  ],
+  "main": "debug.js",
+  "bin": "src/cli.js",
+  "dependencies": {
+    "@znemz/js-common-cpy-cli": "0.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gulp": {
+    "opts": {
+      "doBabel": false,
+      "doTs": false,
+      "doTypes": false,
+      "doSeries": false,
+      "skip": true
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "@znemz/js-common-babel-config",
+  "version": "0.0.1",
+  "description": "babel config saved off under git",
+  "keywords": [
+    "babel",
+    "config"
+  ],
+  "repository": {
+    "url": "https://github.com/nmccready/js-common/packages/babel"
+  },
+  "license": "MIT",
+  "author": "Nicholas McCready",
+  "files": [
+    "src",
+    "lib",
+    "debug.js"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "preinstall": "yarn cpy ../tsconfig-clone/tsconfig.json . && yarn cpy ../debug-clone/debug.js ."
+  },
+  "dependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-transform-react-constant-elements": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.3.4",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/babel__core": "^7.1.2",
+    "@znemz/js-common-tsconfig-clone": "0.0.1",
+    "cpy-cli": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gulp": {
+    "opts": {
+      "doBabel": false,
+      "doTs": true,
+      "doTypes": false,
+      "doSeries": true
+    }
+  }
+}
