@@ -34,8 +34,7 @@
     "@babel/preset-typescript": "^7.3.3",
     "@types/babel__core": "^7.1.2",
     "@znemz/js-common-debug-clone": "^0.0.8",
-    "@znemz/js-common-tsconfig-clone": "^0.0.8",
-    "cpy-cli": "^2.0.0"
+    "@znemz/js-common-tsconfig-clone": "^0.0.8"
   },
   "publishConfig": {
     "access": "public"
