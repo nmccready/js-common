@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-eslint-config-react",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "eslint config, following our style guide",
   "keywords": [
     "config",
@@ -31,7 +31,7 @@
     "@typescript-eslint/eslint-plugin": "^1.11",
     "@typescript-eslint/parser": "^1.11",
     "@znemz/eslint-plugin-nem": "0.0.1",
-    "@znemz/js-common-prettierrc-clone": "^0.0.9",
+    "@znemz/js-common-prettierrc-clone": "^0.0.10",
     "babel-eslint": "^10.0.1",
     "confusing-browser-globals": "^1.0.8",
     "eslint": "^5.16",

@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-zanity",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "sanity check rep for our *clone projects",
   "repository": {
     "url": "https://github.com/nmccready/js-common/packages/zanity"
