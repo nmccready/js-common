@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-gulpfile-monorepo-typescript-clone",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "tsconfig copy / clone cli",
   "keywords": [
     "dry",
@@ -26,7 +26,7 @@
     "preinstall:dev": "exit 0"
   },
   "dependencies": {
-    "@znemz/js-common-cpy-cli": "^0.0.10",
+    "@znemz/js-common-cpy-cli": "^0.0.11",
     "debug-fabulous": "^1.1.0"
   },
   "publishConfig": {
