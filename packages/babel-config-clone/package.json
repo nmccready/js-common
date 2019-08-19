@@ -18,7 +18,8 @@
   ],
   "bin": "lib/cli.js",
   "scripts": {
-    "preinstall": "yarn cpy ../tsconfig-clone/tsconfig.json . && yarn cpy ../debug-clone/debug.js ."
+    "preinstall:dev": "cp ../tsconfig-clone/tsconfig.json . && cp ../debug-clone/debug.js .",
+    "postinstall": "yarn js-common-tsconfig-clone && yarn js-common-debug-clone"
   },
   "dependencies": {
     "@znemz/js-common-babel-config": "^0.0.3",
@@ -29,7 +30,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "ff6d2e3a581d94fd6253540e793cf9ea9a4742eb",
+  "gitHead": "1a47483864f0b656d5df37871e58482149849d87",
   "gulp": {
     "opts": {
       "doBabel": false,
