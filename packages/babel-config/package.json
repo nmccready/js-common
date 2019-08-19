@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-babel-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "babel config saved off under git",
   "keywords": [
     "babel",
@@ -32,7 +32,7 @@
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.3.3",
     "@types/babel__core": "^7.1.2",
-    "@znemz/js-common-tsconfig-clone": "0.0.1",
+    "@znemz/js-common-tsconfig-clone": "^0.0.2",
     "cpy-cli": "^2.0.0"
   },
   "publishConfig": {

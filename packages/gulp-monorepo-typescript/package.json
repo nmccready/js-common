@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-gulp-monorepo-typescript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "gulp task configuration for building lerna projects via babel and typscript",
   "keywords": [
     "babel",

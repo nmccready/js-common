@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-cpy-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "copy / clone cli",
   "keywords": [],
   "repository": {
@@ -20,7 +20,7 @@
     "preinstall": "yarn cpy ../tsconfig-clone/tsconfig.json . && yarn cpy ../debug-clone/debug.js ."
   },
   "dependencies": {
-    "@znemz/js-common-tsconfig-clone": "0.0.1",
+    "@znemz/js-common-tsconfig-clone": "^0.0.2",
     "commander": "^3.0.0",
     "cpy": "^7",
     "cpy-cli": "^2.0.0",

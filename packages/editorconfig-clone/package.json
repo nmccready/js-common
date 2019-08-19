@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-editorconfig-clone",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "editorconfig copy / clone cli",
   "keywords": [
     "editorconfig"
@@ -20,7 +20,7 @@
     "preinstall": "yarn cpy ../tsconfig-clone/tsconfig.json . && yarn cpy ../debug-clone/debug.js ."
   },
   "dependencies": {
-    "@znemz/js-common-tsconfig-clone": "0.0.1",
+    "@znemz/js-common-tsconfig-clone": "^0.0.2",
     "cpy-cli": "^2.0.0"
   },
   "publishConfig": {
