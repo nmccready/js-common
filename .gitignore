@@ -27,3 +27,4 @@ jest.config.js
 .prettierrc.js
 .eslintignore
 .eslintrc.js
+./jest.config.js
