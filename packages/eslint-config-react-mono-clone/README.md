@@ -1,4 +1,4 @@
-# eslint-config-mono-clone
+# eslint-config-react-mono-clone
 
 Clones [`.eslint*`](./.eslintrc.js) to the dependent project.
 

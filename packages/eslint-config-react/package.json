@@ -1,0 +1,47 @@
+{
+  "name": "@znemz/js-common-eslint-config-react",
+  "version": "0.0.1",
+  "description": "eslint config, following our style guide",
+  "keywords": [
+    "config",
+    "eslint",
+    "javascript",
+    "react",
+    "styleguide"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nmccready/js-common/packages/eslint-config-react"
+  },
+  "license": "MIT",
+  "author": "Nicholas McCready",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "prelint": "editorconfig-tools check * tests/*",
+    "lint": "eslint .",
+    "pretest": "yarn lint",
+    "test": "yarn tests-only",
+    "tests-only": "babel-tape-runner ./tests/**/*spec.js"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.11",
+    "@typescript-eslint/parser": "^1.11",
+    "@znemz/eslint-plugin-nem": "0.0.1",
+    "@znemz/js-common-prettierrc-clone": "0.0.1",
+    "babel-eslint": "^10.0.1",
+    "confusing-browser-globals": "^1.0.8",
+    "eslint": "^5.16",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-typescript": "^1.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.1.0"
+  },
+  "engines": {
+    "node": ">= 4"
+  }
+}

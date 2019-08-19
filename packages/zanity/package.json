@@ -19,8 +19,9 @@
     "pretest:1": "yarn js-common-babel-config-clone && yarn js-common-editorconfig-clone",
     "pretest:2": "yarn js-common-debug-clone && yarn js-common-gulpfile-monorepo-typescript-clone",
     "pretest:3": "yarn js-common-tsconfig-clone",
-    "pretest:4": "yarn js-common-prettierrc-clone && yarn js-common-eslint-config-mono-clone",
-    "pretest": "yarn pretest:1 && yarn pretest:2 && yarn pretest:3 && yarn pretest:4"
+    "pretest:4": "yarn js-common-eslint-config-react-mono-clone && yarn cpy .eslint* react/. && rimraf .eslint*",
+    "pretest:5": "yarn js-common-prettierrc-clone && yarn js-common-eslint-config-mono-clone",
+    "pretest": "yarn pretest:1 && yarn pretest:2 && yarn pretest:3 && yarn pretest:4 && yarn pretest:5"
   },
   "gulp": {
     "opts": {

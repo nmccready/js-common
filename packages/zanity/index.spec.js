@@ -17,8 +17,10 @@ describe('zanity', () => {
           '.prettierrc.js',
           '.eslintignore',
           '.eslintrc.js',
+          ['react', '.eslintignore'],
+          ['react', '.eslintrc.js'],
         ],
-        (f) => statAsync(path.resolve(__dirname, f))
+        (f) => statAsync(path.resolve(__dirname, ...(!Array.isArray(f) ? [f] : f)))
       )
     ));
 });
