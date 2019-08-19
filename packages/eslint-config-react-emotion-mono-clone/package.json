@@ -1,0 +1,44 @@
+{
+  "name": "@znemz/js-common-eslint-config-react-emotion-mono-clone",
+  "version": "0.0.8",
+  "description": "prettierrc.js clone",
+  "keywords": [
+    "child",
+    "config",
+    "jest",
+    "monorepo",
+    "package"
+  ],
+  "repository": {
+    "url": "https://github.com/nmccready/js-common/packages/eslint-config-react-emotion-mono-clone"
+  },
+  "license": "MIT",
+  "author": "Nicholas McCready",
+  "files": [
+    "src",
+    "lib",
+    ".eslintignore",
+    ".eslintrc.js"
+  ],
+  "main": "debug.js",
+  "bin": "src/cli.js",
+  "scripts": {
+    "preinstall:dev": "exit 0"
+  },
+  "dependencies": {
+    "@znemz/js-common-eslint-config-react-emotion": "0.0.8"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "562740b40f1e4cd304469dcccb666adb1f40365b",
+  "gulp": {
+    "opts": {
+      "doBabel": false,
+      "doTs": false,
+      "doTypes": false,
+      "doSeries": false,
+      "skip": true
+    }
+  }
+}

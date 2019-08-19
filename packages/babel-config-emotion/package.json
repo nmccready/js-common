@@ -1,0 +1,40 @@
+{
+  "name": "@znemz/js-common-babel-config-emotion",
+  "version": "0.0.8",
+  "description": "babel config saved off under git",
+  "keywords": [
+    "babel",
+    "config"
+  ],
+  "repository": {
+    "url": "https://github.com/nmccready/js-common/packages/babel-config-emotion"
+  },
+  "license": "MIT",
+  "author": "Nicholas McCready",
+  "files": [
+    "src",
+    "lib",
+    "debug.js"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "postinstall": "yarn js-common-tsconfig-clone && yarn js-common-debug-clone",
+    "preinstall:dev": "cp ../tsconfig-clone/tsconfig.json . && cp ../debug-clone/debug.js ."
+  },
+  "dependencies": {
+    "@emotion/babel-preset-css-prop": "^10.0.14",
+    "@znemz/js-common-babel-config": "^0.0.8"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "562740b40f1e4cd304469dcccb666adb1f40365b",
+  "gulp": {
+    "opts": {
+      "doBabel": false,
+      "doTs": true,
+      "doTypes": false,
+      "doSeries": true
+    }
+  }
+}
