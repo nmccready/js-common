@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-editorconfig-clone",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "editorconfig copy / clone cli",
   "keywords": [
     "editorconfig"
@@ -21,8 +21,8 @@
     "preinstall:dev": "cp ../tsconfig-clone/tsconfig.json . && cp ../debug-clone/debug.js ."
   },
   "dependencies": {
-    "@znemz/js-common-debug-clone": "^0.0.12",
-    "@znemz/js-common-tsconfig-clone": "^0.0.12",
+    "@znemz/js-common-debug-clone": "^0.0.13",
+    "@znemz/js-common-tsconfig-clone": "^0.0.13",
     "cpy-cli": "^2.0.0"
   },
   "publishConfig": {
