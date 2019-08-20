@@ -17,7 +17,7 @@
   "files": [
     "src",
     "lib",
-    "debug.js"
+    ".prettierrc.js"
   ],
   "main": "debug.js",
   "bin": "src/cli.js",
