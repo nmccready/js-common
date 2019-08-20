@@ -22,8 +22,11 @@
     "preinstall:dev": "cp ../tsconfig-clone/tsconfig.json . && cp ../debug-clone/debug.js ."
   },
   "dependencies": {
+    "@babel/core": "^7.0.0",
     "@emotion/babel-preset-css-prop": "^10.0.14",
-    "@znemz/js-common-babel-config": "^0.0.12"
+    "@znemz/js-common-babel-config": "^0.0.12",
+    "@znemz/js-common-debug-clone": "^0.0.12",
+    "@znemz/js-common-tsconfig-clone": "^0.0.12"
   },
   "publishConfig": {
     "access": "public"
