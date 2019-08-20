@@ -1,0 +1,41 @@
+{
+  "name": "@znemz/js-common-jest-config-mono-package-clone",
+  "version": "0.0.17",
+  "description": "tsconfig copy / clone cli",
+  "keywords": [
+    "clone",
+    "react",
+    "tsconfig"
+  ],
+  "repository": {
+    "url": "https://github.com/nmccready/js-common/packages/jest-config-mono-package-clone"
+  },
+  "license": "MIT",
+  "author": "Nicholas McCready",
+  "files": [
+    "src",
+    "lib",
+    "jest.config.js"
+  ],
+  "bin": "src/cli.js",
+  "scripts": {
+    "postinstall": "yarn js-common-debug-clone",
+    "preinstall:dev": "cp ../debug-clone/debug.js ."
+  },
+  "dependencies": {
+    "@znemz/js-common-cpy-cli": "^0.0.17"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "89e024382e5cd29bafbc9b3faa86a39e917d5a6a",
+  "gulp": {
+    "opts": {
+      "doBabel": false,
+      "doTs": false,
+      "doTypes": false,
+      "doSeries": false,
+      "skip": true
+    }
+  }
+}

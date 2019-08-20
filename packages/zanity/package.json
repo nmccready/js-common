@@ -21,7 +21,7 @@
     "pretest:3": "yarn js-common-eslint-config-react-mono-clone && yarn cpy .eslint* react/. && rimraf .eslint*",
     "pretest:4": "yarn js-common-prettierrc-clone && yarn js-common-eslint-config-mono-clone",
     "pretest:5": "yarn js-common-tsconfig-mono-react-clone && yarn cpy tsconfig* react/. && rimraf .tsconfig*",
-    "pretest:6": "yarn js-common-tsconfig-clone",
+    "pretest:6": "yarn js-common-tsconfig-clone && yarn js-common-jest-config-mono-package-clone",
     "pretest": "yarn pretest:1 && yarn pretest:2 && yarn pretest:3 && yarn pretest:4 && yarn pretest:5 && yarn pretest:6"
   },
   "publishConfig": {
