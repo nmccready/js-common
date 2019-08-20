@@ -1,0 +1,43 @@
+{
+  "name": "@znemz/js-common-tsconfig-mono-react-clone",
+  "version": "0.0.14",
+  "description": "tsconfig copy / clone cli",
+  "keywords": [
+    "clone",
+    "react",
+    "tsconfig"
+  ],
+  "repository": {
+    "url": "https://github.com/nmccready/js-common/packages/tsconfig-mono-react-clone"
+  },
+  "license": "MIT",
+  "author": "Nicholas McCready",
+  "files": [
+    "src",
+    "lib",
+    "debug.js",
+    "tsconfig.json"
+  ],
+  "bin": "lib/cli.js",
+  "scripts": {
+    "postinstall": "yarn js-common-debug-clone",
+    "preinstall:dev": "cp ../debug-clone/debug.js ."
+  },
+  "dependencies": {
+    "@znemz/js-common-cpy-cli": "^0.0.14",
+    "@znemz/js-common-debug-clone": "^0.0.14",
+    "debug-fabulous": "^1.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "89e024382e5cd29bafbc9b3faa86a39e917d5a6a",
+  "gulp": {
+    "opts": {
+      "doBabel": false,
+      "doTs": true,
+      "doTypes": false,
+      "doSeries": true
+    }
+  }
+}
