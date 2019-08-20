@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@znemz/js-common-cpy-cli": "^0.0.16",
-    "debug-fabulous": "^1.1.0"
+    "@znemz/js-common-gulp-monorepo-typescript": "^0.0.16"
   },
   "publishConfig": {
     "access": "public"

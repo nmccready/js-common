@@ -57,5 +57,8 @@ module.exports = {
     'no-continue': 0,
     'no-multi-assign': 0,
     'global-require': 0,
+    'arrow-body-style': 0,
+    'no-confusing-arrow': 0,
+    '@typescript-eslint/interface-name-prefix': 0,
   },
 };

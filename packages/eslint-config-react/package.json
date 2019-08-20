@@ -30,7 +30,11 @@
   "dependencies": {
     "@znemz/js-common-eslint-config": "^0.0.16",
     "confusing-browser-globals": "^1.0.8",
-    "eslint-plugin-jest": "^22.3.2"
+    "eslint-plugin-jest": "^22.3.2",
+    "eslint-import-resolver-jest": "^2.1.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.12.4"
   },
   "engines": {
     "node": ">= 4"
