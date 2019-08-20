@@ -3,7 +3,8 @@
   "version": "0.0.14",
   "description": "tsconfig copy / clone cli",
   "keywords": [
-    "editorconfig"
+    "clone",
+    "tsconfig"
   ],
   "repository": {
     "url": "https://github.com/nmccready/js-common/packages/tsconfig-clone"
@@ -29,7 +30,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "89e024382e5cd29bafbc9b3faa86a39e917d5a6a",
+  "gitHead": "a51ae99e735fc79527bb621123fbe5d033ad0bb5",
   "gulp": {
     "opts": {
       "doBabel": false,

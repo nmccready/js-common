@@ -19,6 +19,7 @@ describe('zanity', () => {
           '.eslintrc.js',
           ['react', '.eslintignore'],
           ['react', '.eslintrc.js'],
+          ['react', 'tsconfig.json'],
         ],
         (f) => statAsync(path.resolve(__dirname, ...(!Array.isArray(f) ? [f] : f)))
       )
