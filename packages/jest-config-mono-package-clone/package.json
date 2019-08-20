@@ -18,6 +18,9 @@
     "jest.config.js"
   ],
   "bin": "src/cli.js",
+  "scripts": {
+    "preinstall:dev": "exit 0"
+  },
   "dependencies": {
     "@znemz/js-common-cpy-cli": "^0.0.19"
   },

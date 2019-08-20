@@ -1,0 +1,50 @@
+{
+  "name": "@znemz/js-common-webpack-config",
+  "version": "0.0.19",
+  "description": "webpack config saved off ",
+  "keywords": [
+    "config",
+    "webpack"
+  ],
+  "repository": {
+    "url": "https://github.com/nmccready/js-common/packages/webpack-config"
+  },
+  "license": "MIT",
+  "author": "Nicholas McCready",
+  "files": [
+    "src",
+    "lib",
+    "debug.js"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "postinstall": "yarn js-common-tsconfig-clone && yarn js-common-debug-clone",
+    "preinstall:dev": "cp ../tsconfig-clone/tsconfig.json . && cp ../debug-clone/debug.js ."
+  },
+  "dependencies": {
+    "@znemz/js-common-debug-clone": "^0.0.19",
+    "@znemz/js-common-tsconfig-clone": "^0.0.19",
+    "file-loader": "^2.0.0",
+    "hard-source-webpack-plugin": "^0.13.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.6.0",
+    "postcss-loader": "^3.0.0",
+    "url-loader": "^1.1.1",
+    "webpack": "^4.17.1",
+    "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-dev-middleware": "^3.2.0",
+    "webpack-hot-middleware": "^2.22.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "89e024382e5cd29bafbc9b3faa86a39e917d5a6a",
+  "gulp": {
+    "opts": {
+      "doBabel": true,
+      "doTs": false,
+      "doTypes": false,
+      "doSeries": false
+    }
+  }
+}
