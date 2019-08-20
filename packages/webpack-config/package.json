@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-webpack-config",
-  "version": "0.0.19",
+  "version": "0.0.20-alpha.0",
   "description": "webpack config saved off ",
   "keywords": [
     "config",
