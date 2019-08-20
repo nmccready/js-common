@@ -18,10 +18,6 @@
     "jest.config.js"
   ],
   "bin": "src/cli.js",
-  "scripts": {
-    "postinstall": "yarn js-common-debug-clone",
-    "preinstall:dev": "cp ../debug-clone/debug.js ."
-  },
   "dependencies": {
     "@znemz/js-common-cpy-cli": "^0.0.18"
   },
