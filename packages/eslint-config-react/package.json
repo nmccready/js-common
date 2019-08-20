@@ -29,7 +29,8 @@
   },
   "dependencies": {
     "@znemz/js-common-eslint-config": "^0.0.16",
-    "confusing-browser-globals": "^1.0.8"
+    "confusing-browser-globals": "^1.0.8",
+    "eslint-plugin-jest": "^22.3.2"
   },
   "engines": {
     "node": ">= 4"
