@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-eslint-config-mono-clone",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "prettierrc.js clone",
   "keywords": [
     "child",
@@ -26,8 +26,8 @@
     "preinstall:dev": "exit 0"
   },
   "dependencies": {
-    "@znemz/js-common-cpy-cli": "^0.0.16",
-    "@znemz/js-common-eslint-config": "^0.0.16"
+    "@znemz/js-common-cpy-cli": "^0.0.17",
+    "@znemz/js-common-eslint-config": "^0.0.17"
   },
   "publishConfig": {
     "access": "public"
