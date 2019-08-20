@@ -26,8 +26,8 @@
     "preinstall:dev": "exit 0"
   },
   "dependencies": {
-    "@znemz/js-common-eslint-config": "^0.0.13",
-    "@znemz/js-common-cpy-cli": "^0.0.13"
+    "@znemz/js-common-cpy-cli": "^0.0.13",
+    "@znemz/js-common-eslint-config": "^0.0.13"
   },
   "publishConfig": {
     "access": "public"
