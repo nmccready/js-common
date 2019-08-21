@@ -17,8 +17,8 @@
   ],
   "bin": "lib/cli.js",
   "scripts": {
-    "postinstall": "yarn js-common-tsconfig-clone && yarn js-common-debug-clone",
-    "preinstall:dev": "cp ../tsconfig-clone/tsconfig.json . && cp ../debug-clone/debug.js ."
+    "preinstall:dev": "cp ../tsconfig-clone/tsconfig.json . && cp ../debug-clone/debug.js .",
+    "prepare": "yarn js-common-tsconfig-clone && yarn js-common-debug-clone"
   },
   "dependencies": {
     "@znemz/js-common-debug-clone": "^0.0.20",

@@ -21,8 +21,8 @@
   "main": "src/index.js",
   "module": "src/index.js",
   "scripts": {
-    "postinstall": "yarn js-common-debug-clone",
-    "preinstall:dev": "cp ../debug-clone/debug.js ."
+    "preinstall:dev": "cp ../debug-clone/debug.js .",
+    "prepare": "yarn js-common-debug-clone"
   },
   "dependencies": {
     "@znemz/js-common-debug-clone": "^0.0.20",
@@ -35,7 +35,8 @@
     "gulp-rename": "^1.4.0",
     "gulp-replace": "^1",
     "gulp-typescript": "^5.0.1",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.15",
+    "typescript": "^3.5.1"
   },
   "publishConfig": {
     "access": "public"

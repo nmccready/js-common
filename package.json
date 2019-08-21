@@ -65,8 +65,7 @@
     "react": "^16.8.6",
     "react-test-renderer": "^16.8.6",
     "rimraf": "^2.6.2",
-    "sort-package-json": "^1.21.0",
-    "typescript": "^3.5.1"
+    "sort-package-json": "^1.21.0"
   },
   "engines": {
     "node": ">=8",
