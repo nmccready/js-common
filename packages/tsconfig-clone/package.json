@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-tsconfig-clone",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "description": "tsconfig copy / clone cli",
   "keywords": [
     "clone",
@@ -23,8 +23,8 @@
     "preinstall:dev": "cp ../debug-clone/debug.js ."
   },
   "dependencies": {
-    "@znemz/js-common-cpy-cli": "^0.0.19",
-    "@znemz/js-common-debug-clone": "^0.0.19",
+    "@znemz/js-common-cpy-cli": "^0.0.20",
+    "@znemz/js-common-debug-clone": "^0.0.20",
     "debug-fabulous": "^1.1.0"
   },
   "publishConfig": {

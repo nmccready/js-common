@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-webpack-config",
-  "version": "0.0.20-alpha.1",
+  "version": "0.0.20",
   "description": "webpack config saved off ",
   "keywords": [
     "config",
@@ -22,8 +22,8 @@
     "preinstall:dev": "cp ../tsconfig-clone/tsconfig.json . && cp ../debug-clone/debug.js ."
   },
   "dependencies": {
-    "@znemz/js-common-debug-clone": "^0.0.19",
-    "@znemz/js-common-tsconfig-clone": "^0.0.19",
+    "@znemz/js-common-debug-clone": "^0.0.20",
+    "@znemz/js-common-tsconfig-clone": "^0.0.20",
     "file-loader": "^2.0.0",
     "hard-source-webpack-plugin": "^0.13.0",
     "html-webpack-plugin": "^3.2.0",

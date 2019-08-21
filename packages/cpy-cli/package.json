@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-cpy-cli",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "description": "copy / clone cli",
   "keywords": [],
   "repository": {
@@ -22,8 +22,8 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0",
-    "@znemz/js-common-debug-clone": "^0.0.19",
-    "@znemz/js-common-tsconfig-clone": "^0.0.19",
+    "@znemz/js-common-debug-clone": "^0.0.20",
+    "@znemz/js-common-tsconfig-clone": "^0.0.20",
     "commander": "^3.0.0",
     "cpy": "^7",
     "cpy-cli": "^2.0.0",
