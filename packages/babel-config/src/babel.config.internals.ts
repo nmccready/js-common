@@ -30,7 +30,7 @@ export const envPlugins: EnvPlugins = {
     '@babel/plugin-transform-react-constant-elements',
     '@babel/transform-runtime',
   ],
-  test: ['@babel/plugin-proposal-class-properties'],
+  test: ['@babel/plugin-proposal-class-properties', '@babel/transform-runtime'],
 };
 
 export type Env = { [index: string]: TransformOptions | null | undefined } | null;
