@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-gulp-monorepo-typescript",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "description": "gulp task configuration for building lerna projects via babel and typscript",
   "keywords": [
     "babel",
@@ -25,7 +25,7 @@
     "prepare": "yarn js-common-debug-clone"
   },
   "dependencies": {
-    "@znemz/js-common-debug-clone": "^0.0.22",
+    "@znemz/js-common-debug-clone": "^0.0.23",
     "commander": "^3.0.0",
     "debug-fabulous": "^1.1.0",
     "del": "^5.0.0",
