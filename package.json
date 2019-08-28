@@ -63,9 +63,12 @@
     "portfinder": "^1.0.20",
     "prettier": "^1.16.4",
     "react": "^16.8.6",
+    "react-emotion": "^10.0.0",
     "react-test-renderer": "^16.8.6",
     "rimraf": "^2.6.2",
-    "sort-package-json": "^1.21.0"
+    "shx": "^0.3.2",
+    "sort-package-json": "^1.21.0",
+    "styled-components": "^4.3.2"
   },
   "engines": {
     "node": ">=8",
