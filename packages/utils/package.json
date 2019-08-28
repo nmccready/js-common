@@ -1,0 +1,38 @@
+{
+  "name": "@znemz/js-common-utils",
+  "version": "0.0.23",
+  "description": "js utils",
+  "keywords": [
+    "babel",
+    "config"
+  ],
+  "repository": {
+    "url": "https://github.com/nmccready/js-common/packages/utils"
+  },
+  "license": "MIT",
+  "author": "Nicholas McCready",
+  "files": [
+    "src",
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "preinstall:dev": "cp ../tsconfig-clone/tsconfig.json .",
+    "prepare": "yarn js-common-tsconfig-clone"
+  },
+  "devDependencies": {
+    "@znemz/js-common-tsconfig-clone": "^0.0.23"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "89e024382e5cd29bafbc9b3faa86a39e917d5a6a",
+  "gulp": {
+    "opts": {
+      "doBabel": false,
+      "doTs": true,
+      "doTypes": false,
+      "doSeries": false
+    }
+  }
+}
