@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-eslint-config-react-emotion",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "description": "eslint config, following our style guide",
   "keywords": [
     "config",
@@ -28,7 +28,7 @@
     "tests-only": "babel-tape-runner ./tests/**/*spec.js"
   },
   "dependencies": {
-    "@znemz/js-common-eslint-config-react": "^0.0.23",
+    "@znemz/js-common-eslint-config-react": "^0.0.24",
     "eslint-plugin-emotion": "^10.0.7"
   },
   "engines": {
