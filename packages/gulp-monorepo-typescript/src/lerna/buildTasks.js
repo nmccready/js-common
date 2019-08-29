@@ -34,7 +34,7 @@ const createBuildTasks = ({ root, packages, typescript, babel, types }) => {
       const _parallel = [];
       const _series = [];
 
-      if (opts.skip) {
+      if (skip) {
         continue;
       }
 
