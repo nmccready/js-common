@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-utils",
-  "version": "0.0.27",
+  "version": "0.0.28",
   "description": "js utils",
   "keywords": [
     "babel",
@@ -21,7 +21,7 @@
     "prepare": "yarn js-common-tsconfig-clone"
   },
   "devDependencies": {
-    "@znemz/js-common-tsconfig-clone": "^0.0.27"
+    "@znemz/js-common-tsconfig-clone": "^0.0.28"
   },
   "publishConfig": {
     "access": "public"
