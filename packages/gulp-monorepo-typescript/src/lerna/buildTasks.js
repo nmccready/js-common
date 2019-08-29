@@ -16,7 +16,7 @@ export const getBuildOptions = ({ root, pack, doBabel, doTs, doTypes }) => {
 
 const createBuildTasks = ({ root, packages, typescript, babel, types }) => {
   const buildTasks = ({ doBabel = true, doTs = true, doTypes = true } = {}) => {
-    const series = [];
+    let series = [];
     const parallel = [];
 
     for (let i = 0; i < packages.length; i++) {
@@ -54,7 +54,9 @@ const createBuildTasks = ({ root, packages, typescript, babel, types }) => {
 
       gulp.task(taskName, gulp.parallel(gulp.series(..._series), ..._parallel));
       if (opts.doSeries) {
-        series.push(taskName);
+        if (opts.seriesPosition === 'head') {
+          series = [taskName].concat(series);
+        } else series.push(taskName);
         continue;
       }
       parallel.push(taskName);
