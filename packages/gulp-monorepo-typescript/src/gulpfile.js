@@ -81,7 +81,7 @@ This is used fo CI only to make sure typescript builds and there are no errors.
 This is to make up for the fact that babel-typescript is much more forgiving.
 */
   gulp.task('typescript', gulp.series('clean', 'build:ts', 'clean'));
-  gulp.task('tsc', gulp.series('clean', 'build:ts'));
+  gulp.task('tsc', gulp.series('build:ts'));
 };
 
 export default create;
