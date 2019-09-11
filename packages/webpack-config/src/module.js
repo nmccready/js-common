@@ -81,7 +81,7 @@ const makeModule = (config = {}) => {
 
   let css, cssModule;
 
-  if (cssSourceMap && styleLoader) {
+  if (styleLoader) {
     css = createRule({
       test: /\.(css|pcss|scss)$/,
       use: [
