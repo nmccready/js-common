@@ -39,8 +39,8 @@
     "start:dev": "concurrently -k -r -s first \"yarn test --watch\" \"yarn start\"",
     "test": "yarn scope @znemz/js-common-zanity yarn pretest && yarn jest",
     "test:ci": "yarn lint && yarn test --coverage",
-    "website": "yarn gulp docs && yarn gulp docs:assets && yarn x0 build docs",
-    "website:dev": "concurrently -k -r -s all 'yarn gulp docs:watch' 'yarn x0 docs'"
+    "website": "yarn gulp docs && yarn gulp docs:assets && yarn x0 build x0",
+    "website:dev": "concurrently -k -r -s all 'yarn gulp docs:watch' 'yarn x0 x0'"
   },
   "devDependencies": {
     "@compositor/logo": "^1.4.0",
@@ -70,8 +70,22 @@
     "sort-package-json": "^1.21.0",
     "styled-components": "^4.3.2"
   },
+  "resolutions": {
+    "webpack-bundle-analyzer": "^3.3.2"
+  },
   "engines": {
     "node": ">=8",
     "yarn": ">=1.15"
+  },
+  "x0": {
+    "static": true,
+    "outDir": "docs",
+    "title": "js-common",
+    "links": [
+      {
+        "rel": "shortcut icon",
+        "href": "./favicon.ico"
+      }
+    ]
   }
 }
