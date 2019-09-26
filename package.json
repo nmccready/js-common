@@ -55,7 +55,7 @@
     "concurrently": "^4.0.1",
     "coveralls": "^3.0.2",
     "cpy-cli": "^2.0.0",
-    "debug-fabulous": "^1.1.0",
+    "debug-fabulous": "^2.0.0",
     "esm": "^3.2.22",
     "lerna": "^3.16",
     "lodash": "^4.17.11",
@@ -71,6 +71,7 @@
     "styled-components": "^4.3.2"
   },
   "resolutions": {
+    "eslint-utils": "^1.4.2",
     "webpack-bundle-analyzer": "^3.3.2"
   },
   "engines": {

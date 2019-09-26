@@ -27,7 +27,7 @@
   "dependencies": {
     "@znemz/js-common-debug-clone": "^0.1.1",
     "commander": "^3.0.0",
-    "debug-fabulous": "^1.1.0",
+    "debug-fabulous": "^2.0.0",
     "del": "^5.0.0",
     "gulp": "4",
     "gulp-babel": "^8",
