@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-eslint-config-react-emotion-mono-clone",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "prettierrc.js clone",
   "keywords": [
     "child",
@@ -26,7 +26,7 @@
     "preinstall:dev": "exit 0"
   },
   "dependencies": {
-    "@znemz/js-common-eslint-config-react-emotion": "^0.1.1"
+    "@znemz/js-common-eslint-config-react-emotion": "^0.1.2"
   },
   "publishConfig": {
     "access": "public"
