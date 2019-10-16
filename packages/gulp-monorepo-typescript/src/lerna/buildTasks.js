@@ -56,6 +56,9 @@ const createBuildTasks = ({ root, packages, typescript, babel, types }) => {
       if (opts.doSeries) {
         if (opts.seriesPosition === 'head') {
           series = [taskName].concat(series);
+        } else if (opts.dependsOn) {
+          const index = series.findIndex((s) => s.includes(opts.dependsOn));
+          series.splice(index, 0, taskName);
         } else series.push(taskName);
         continue;
       }
