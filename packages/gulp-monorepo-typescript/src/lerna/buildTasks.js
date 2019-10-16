@@ -56,10 +56,16 @@ const createBuildTasks = ({ root, packages, typescript, babel, types }) => {
       if (opts.doSeries) {
         if (opts.seriesPosition === 'head') {
           series = [taskName].concat(series);
+          debug(`head ${taskName}`);
         } else if (opts.dependsOn) {
           const index = series.findIndex((s) => s.includes(opts.dependsOn));
-          series.splice(index, 0, taskName);
-        } else series.push(taskName);
+          series.splice(index + 1, 0, taskName);
+          debug(`inserted ${taskName} at index ${index}`);
+        } else {
+          series.push(taskName);
+          debug(`pushed ${taskName}`);
+        }
+        debug({ series });
         continue;
       }
       parallel.push(taskName);
