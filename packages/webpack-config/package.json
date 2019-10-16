@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-webpack-config",
-  "version": "0.1.2",
+  "version": "0.1.3-alpha.0",
   "description": "webpack config saved off ",
   "keywords": [
     "config",
@@ -22,8 +22,8 @@
     "prepare": "yarn js-common-tsconfig-clone && yarn js-common-debug-clone"
   },
   "dependencies": {
-    "@znemz/js-common-debug-clone": "^0.1.2",
-    "@znemz/js-common-tsconfig-clone": "^0.1.2",
+    "@znemz/js-common-debug-clone": "^0.1.3-alpha.0",
+    "@znemz/js-common-tsconfig-clone": "^0.1.3-alpha.0",
     "babel-loader": "^8.0.5",
     "file-loader": "^2.0.0",
     "hard-source-webpack-plugin": "^0.13.0",

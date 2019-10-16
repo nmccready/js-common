@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-jest-config-mono-package-clone",
-  "version": "0.1.2",
+  "version": "0.1.3-alpha.0",
   "description": "tsconfig copy / clone cli",
   "keywords": [
     "clone",
@@ -22,7 +22,7 @@
     "preinstall:dev": "exit 0"
   },
   "dependencies": {
-    "@znemz/js-common-cpy-cli": "^0.1.2"
+    "@znemz/js-common-cpy-cli": "^0.1.3-alpha.0"
   },
   "publishConfig": {
     "access": "public"
