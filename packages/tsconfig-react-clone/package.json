@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-tsconfig-react-clone",
-  "version": "0.2.0-alpha.0",
+  "version": "0.2.0",
   "description": "tsconfig copy / clone react cli",
   "keywords": [
     "clone",
@@ -22,7 +22,7 @@
     "preinstall:dev": "exit 0"
   },
   "dependencies": {
-    "@znemz/js-common-cpy-cli": "^0.2.0-alpha.0"
+    "@znemz/js-common-cpy-cli": "^0.2.0"
   },
   "publishConfig": {
     "access": "public"

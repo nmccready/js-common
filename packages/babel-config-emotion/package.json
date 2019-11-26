@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-babel-config-emotion",
-  "version": "0.2.0-alpha.0",
+  "version": "0.2.0",
   "description": "babel config saved off under git",
   "keywords": [
     "babel",
@@ -24,9 +24,9 @@
   "dependencies": {
     "@babel/core": "^7.0.0",
     "@emotion/babel-preset-css-prop": "^10.0.14",
-    "@znemz/js-common-babel-config": "^0.2.0-alpha.0",
-    "@znemz/js-common-debug-clone": "^0.2.0-alpha.0",
-    "@znemz/js-common-tsconfig-clone": "^0.2.0-alpha.0"
+    "@znemz/js-common-babel-config": "^0.2.0",
+    "@znemz/js-common-debug-clone": "^0.2.0",
+    "@znemz/js-common-tsconfig-clone": "^0.2.0"
   },
   "publishConfig": {
     "access": "public"

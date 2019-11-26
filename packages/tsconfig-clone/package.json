@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-tsconfig-clone",
-  "version": "0.2.0-alpha.0",
+  "version": "0.2.0",
   "description": "tsconfig copy / clone cli",
   "keywords": [
     "clone",
@@ -23,8 +23,8 @@
     "prepare": "yarn js-common-debug-clone"
   },
   "dependencies": {
-    "@znemz/js-common-cpy-cli": "^0.2.0-alpha.0",
-    "@znemz/js-common-debug-clone": "^0.2.0-alpha.0",
+    "@znemz/js-common-cpy-cli": "^0.2.0",
+    "@znemz/js-common-debug-clone": "^0.2.0",
     "debug-fabulous": "^2.0.0"
   },
   "publishConfig": {
