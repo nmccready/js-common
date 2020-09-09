@@ -54,7 +54,7 @@
     "bluebird": "^3.5.3",
     "concurrently": "^4.0.1",
     "coveralls": "^3.0.2",
-    "cpy-cli": "^2.0.0",
+    "cpy-cli": "^3.1.1",
     "debug-fabulous": "^2.0.0",
     "esm": "^3.2.22",
     "lerna": "^3.16",
@@ -72,6 +72,7 @@
   },
   "resolutions": {
     "eslint-utils": "^1.4.2",
+    "shelljs": "0.8.4",
     "webpack-bundle-analyzer": "^3.3.2"
   },
   "engines": {
