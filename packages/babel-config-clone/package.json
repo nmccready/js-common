@@ -23,9 +23,9 @@
   },
   "dependencies": {
     "@znemz/js-common-babel-config": "^0.2.1",
+    "@znemz/js-common-cpy-cli": "^0.2.1",
     "@znemz/js-common-debug-clone": "^0.2.1",
-    "@znemz/js-common-tsconfig-clone": "^0.2.1",
-    "cpy-cli": "^2.0.0"
+    "@znemz/js-common-tsconfig-clone": "^0.2.1"
   },
   "publishConfig": {
     "access": "public"
