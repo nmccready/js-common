@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-eslint-config-react",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "eslint config, following our style guide",
   "keywords": [
     "config",
@@ -28,7 +28,7 @@
     "tests-only": "babel-tape-runner ./tests/**/*spec.js"
   },
   "dependencies": {
-    "@znemz/js-common-eslint-config": "^0.2.1",
+    "@znemz/js-common-eslint-config": "^0.2.2",
     "confusing-browser-globals": "^1.0.8",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-import-resolver-jest": "^2.1.1",
