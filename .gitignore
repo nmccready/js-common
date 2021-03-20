@@ -28,3 +28,5 @@ jest.config.js
 .eslintignore
 .eslintrc.js
 ./jest.config.js
+*.lock
+package-lock.json
