@@ -1,6 +1,6 @@
 {
   "name": "@znemz/js-common-babel-config-clone",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "babel-config copy / clone cli",
   "keywords": [
     "babel-config",
@@ -22,10 +22,10 @@
     "prepare": "yarn js-common-tsconfig-clone && yarn js-common-debug-clone"
   },
   "dependencies": {
-    "@znemz/js-common-babel-config": "^0.2.1",
-    "@znemz/js-common-cpy-cli": "^0.2.2",
-    "@znemz/js-common-debug-clone": "^0.2.2",
-    "@znemz/js-common-tsconfig-clone": "^0.2.2"
+    "@znemz/js-common-babel-config": "^0.2.3",
+    "@znemz/js-common-cpy-cli": "^0.2.3",
+    "@znemz/js-common-debug-clone": "^0.2.3",
+    "@znemz/js-common-tsconfig-clone": "^0.2.3"
   },
   "publishConfig": {
     "access": "public"
